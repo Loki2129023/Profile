@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Lokeshgowda R R - Portfolio</title>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet" />
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <nav>
+      <div class="logo">Lokeshgowda R R</div>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#portfolio">My Work</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+<!-- Hero Section -->
+<section class="hero-section" id="hero">
+  <div class="hero-content">
+    <h1>Hi, I'm <span class="name-highlight">Lokeshgowda R R</span></h1>
+    <p class="tagline">A Creative and Passionate Software Engineer</p>
+
+    <!-- NEW: Internship & Current Role Highlight -->
+    <div class="role-highlight">
+      <h2>💼 Current Role</h2>
+      <p>
+       “Currently working as a Software Engineer at HPE, after completing my internship at Juniper Networks in the Packet Forwarding Team (EX Series), where I focused on VLANs, VXLAN, EDK applications, QoS, Telemetry, and Automation Scripting."
+      </p>
+    </div>
+
+    <a href="#contact" class="cta-button">Get In Touch</a>
+  </div>
+</section>
+
+
+  <!-- About Section -->
+  <section class="about-section" id="about">
+    <div class="container">
+      <h2>About Me</h2>
+      <div class="about-content">
+        <p>
+          Computer Science graduate with hands-on experience in backend development, networking, and cloud.
+          Interned at Juniper Networks, working on VLANs, VXLAN, EDK applications, and automation scripting.
+          Built AGRI-CONNECT, a full-stack platform using Node.js, SQL, and integrated ML with CNN.
+          Certified in AWS, Git, and Docker. Passionate about solving real-world problems with scalable tech solutions.
+        </p>
+        <p>
+          I focus on writing clean, efficient, and reliable code with an eye on performance and real-world impact.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Services Section -->
+  <section class="services-section" id="services">
+    <div class="container">
+      <h2>My Services</h2>
+      <div class="services-grid">
+
+        <div class="service-card">
+          <h3>Backend Development</h3>
+          <p>
+            Designing and building scalable APIs and services using Node.js/Express with SQL & MongoDB.
+            Authentication, authorization, and robust data models.
+          </p>
+        </div>
+
+        <div class="service-card">
+          <h3>Networking & Automation</h3>
+          <p>
+            Experience with VLANs, VXLAN, and packet-forwarding workflows. EDK-based tooling,
+            CLI automation, and packet capture/analysis to speed up debugging.
+          </p>
+        </div>
+
+        <div class="service-card">
+          <h3>Cloud & DevOps</h3>
+          <p>
+            Deployments on AWS, Dockerization, CI/CD basics, and secure configuration practices.
+            Certified in AWS and Git.
+          </p>
+        </div>
+
+        <div class="service-card">
+          <h3>Full-Stack Solutions</h3>
+          <p>
+            End-to-end apps like AGRI-CONNECT and Read for Speed combining React (frontend)
+            with Node.js and databases (backend).
+          </p>
+        </div>
+
+        <div class="service-card">
+          <h3>ML Integration</h3>
+          <p>
+            Practical ML integration (e.g., CNNs) for domain problems such as agriculture insights
+            and recommendations, using Python.
+          </p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Portfolio Section -->
+  <section class="portfolio-section" id="portfolio">
+    <div class="container">
+      <h2>My Work</h2>
+      <div class="portfolio-grid">
+
+        <div class="project-card">
+          <h3>EDK Application (Juniper)</h3>
+          <p>
+            Automation-driven tooling for packet capture, decoding, and visualization to accelerate
+            troubleshooting in packet forwarding systems.
+          </p>
+          <p><strong>Skills:</strong> C, CLI scripting, Networking, Packet Analysis</p>
+          <!-- Optional Links -->
+          <!-- <a class="btn" href="#" target="_blank">Case Study</a> -->
+        </div>
+
+        <div class="project-card">
+          <h3>AGRI-CONNECT</h3>
+          <p>
+            Full-stack marketplace connecting farmers and buyers with direct access and pricing autonomy.
+            Includes ML (CNN) for insights and recommendations.
+          </p>
+          <p><strong>Stack:</strong> Node.js, Express, MySQL, HTML/CSS/JS, Python (CNN)</p>
+          <!-- <a class="btn" href="#" target="_blank">Live Demo</a>
+          <a class="btn" href="#" target="_blank">GitHub</a> -->
+        </div>
+
+        <div class="project-card">
+          <h3>VXBot</h3>
+          <p>
+            Automation bot for VXLAN configuration and monitoring that reduces manual overhead
+            and standardizes operations.
+          </p>
+          <p><strong>Skills:</strong> Python, VXLAN, Automation, Networking</p>
+          <!-- <a class="btn" href="#" target="_blank">GitHub</a> -->
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="contact-section" id="contact">
+    <div class="container">
+      <h2>Contact Me</h2>
+      <form class="contact-form" id="contactForm">
+        <input type="text" id="name" name="name" placeholder="Your Name" required />
+        <input type="email" id="email" name="email" placeholder="Your Email" required />
+        <textarea id="message" name="message" placeholder="Your Message" required></textarea>
+        <button type="submit" class="submit-button">Send Message</button>
+      </form>
+      <div class="social-links">
+        <a href="https://www.linkedin.com/in/lokeshgowdarr?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app " target="_blank" rel="noopener">LinkedIn</a>
+        <a href="https://github.com" target="_blank" rel="noopener">GitHub</a>
+        <a href="mailto:lokeshgowda8090@gmail.com">Email</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2024 Lokeshgowda R R. All Rights Reserved.</p>
+  </footer>
+
+  <!-- Script -->
+  <script src="script.js"></script>
+</body>
+</html>
